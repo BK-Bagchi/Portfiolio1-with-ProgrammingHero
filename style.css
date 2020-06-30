@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+}
+
+.top {
+    /* background: red; */
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.left {
+    /* background: seagreen; */
+    /* min-height: 400px; */
+    height: 100%;
+    width: 40%;
+    min-width: 400px;
+    margin-left: 50px;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+h1,
+h2 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+h2 span {
+    color: orange;
+}
+
+p span {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    margin: 20px 0;
+    width: 100%;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #FF7068, #FF4955, #FE2E24);
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+
+.top .right {
+    /* background: skyblue; */
+    height: 100%;
+    width: 50%;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 20px 70px;
+}
+
+.right img,
+.left img {
+    height: 90%;
+    width: 80%;
+    align-self: flex-start;
+}
+
+.center {
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.center .right {
+    /* background: skyblue; */
+    height: 100%;
+    width: 50%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 70px;
+}
+
+.bottom {
+    position: relative;
+    min-height: 60vh;
+    width: 100%;
+    /* background: fuchsia; */
+    background-image: url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom h2 {
+    align-self: flex-start;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.bottom h3 {
+    color: orange;
+}
+
+.bottom .exprience {
+    position: relative;
+    width: 40%;
+    min-width: 380px;
+    height: 350px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    background-image: url("Images/header-bg.png");
+    background-size: cover;
+    border-radius: 7px;
+    box-shadow: 10px 10px 20px gray;
+}
+
+#exp1::before,
+#exp2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffee54, #ff00ca);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+#exp2::before {
+    background: linear-gradient(to bottom, #1fe6ff, #673ab7);
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
